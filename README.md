@@ -2,7 +2,7 @@
 
 nongos is a minimalist [RESTful][1] [JSON][2]-based server written in [CoffeeScript][3].
 
-It combines the power of [node.js][4], [MongoDB][8], [Express][5] and [Mongoose][6] to build a basic backend API.
+It combines the power of [NodeJS][4], [MongoDB][8], [Express][5] and [Mongoose][6] to build a basic backend API.
 
 ## Quick start
 
