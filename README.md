@@ -1,9 +1,5 @@
 # nongos
 
-nongos is a minimalist [RESTful][1] [JSON][2]-based server written in [CoffeeScript][3].
-
-It combines the power of [NodeJS][4], [MongoDB][8], [Express][5] and [Mongoose][6] to build a basic backend API.
-
 ## Quick start
 
 Download or clone the Github repository with:
@@ -17,7 +13,7 @@ Download or clone the Github repository with:
 
 All you need to do is to design your database schema.
 
-Once you have defined your models and started the nongos server, you will be able to use its [RESTful][1] features through the appropriate routes. (See [Routing][9])
+Once you have defined your models and started the nongos server, you will be able to use its [RESTful][1] features through the appropriate routes. (See [Routing][2])
 
 ### Models
 
@@ -42,7 +38,7 @@ UserSchema.pre 'save', (next) ->
 mongoose.model 'users', UserSchema
 ```
 
-You can find more information on modeling in [Mongoose][10] docs.
+You can find more information on modeling in [Mongoose][3] docs.
 
 ### Routing
 
@@ -104,12 +100,5 @@ app.get '/users', (req, res) ->
 ```
 
 [1]: http://en.wikipedia.org/wiki/Representational_State_Transfer
-[2]: http://www.json.org/
-[3]: http://coffeescript.org/
-[4]: http://nodejs.org/
-[5]: http://expressjs.com/
-[6]: http://mongoosejs.com/
-[7]: http://coffeescript.org/#installation
-[8]: http://www.mongodb.org/
-[9]: https://github.com/zonetti/nongos#routing
-[10]: http://mongoosejs.com/docs/guide.html
+[2]: https://github.com/zonetti/nongos#routing
+[3]: http://mongoosejs.com/docs/guide.html
